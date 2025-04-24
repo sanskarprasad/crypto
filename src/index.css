@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+table th, table td {
+  border-bottom: 1px solid #eee;
+}
+@media (max-width: 600px) {
+  h1 { font-size: 1.5rem; }
+  table th, table td { padding: 4px; font-size: 0.85rem; }
+}
